@@ -1,0 +1,57 @@
+<html>
+<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=YgVkmJXTCez_sTXGVj94AAMEDHfZXRruHUwJzVuvRxJs9OkJz5cVD-pRZrn7Q4TsxtJS2SNOXEy-gqtXRbof7WN4qw6jkjGXjEdikDPokQT2QW7ZnMnqA206nS8vpIB3JRtRlYXlm1QCTnH5QeWh2KGe4EImTg0B-E0noMS4nPFNLBF4uUZUSPXHENhwnbIrMACefFQ60F4W9TK49PFSviJa8mrhewYyYnl0JsXpwh1R_X2wIuXhDs022j8MoQwcngv6lypKFdo94-4BZ8MzUKx4oHi6gXqUtb3PGC4xAKDT53M5h2Zb4C0AzKvamJd5z-YlMWizvMU4fpjv72scV85B2j1x3itfRP6w1SBs4elLSlsyIP3ny_zUs-JR84MK601ddOhQTpESrOiFEykYr5OdrglUntJZHyMhgsTPug6HscFLqqRsazlaByMu9nIRiY18ACwkLvnh7892LQD8NgZo1J9TbimX65KObj3UhSP3lgJmh-8a2e8F7jBPuZ3QbFQQAHesTcEvknYwmQNpe6sOEY06M8KnmHRvKI30ZDsCjOKbtusoDW4YFm5VaZNxJ_n3Rx5RfiYLjc5z5nY_dGrSd4zT__Z5xU0I6t6BmcPxQk3beSZyW-20rjNWAafYQql_3DQq2wndVqvI0ACbKJUK52pYtShBrQ1C6zZ7AbqZPJXb-pCiWkwqxLvpnPrOYdLC5bkuZKQg2OA5k8H1wKMrNTMhhLAJnn0n2fu_I5CdZ4HMuB_ZPMdD4sfNOQCXqpH7isGvLGIOa3Xb6vgDqI0Snxp287gnZjUlhG0IJYpRSjVEAImqxpuqW9o23pQhd7Cj1IQSPpBJtuchLJ0BKlouIOxFvHfSIHCYWN8ElgOy1TWH4eBIDsxBPeoK3ZzFjkWgh8d1SnTYaWKkcQt59DYXPjEYYkvc861ifjs7CkJD5fBr3MzGGvq7w8O2D4wnuxQSP848QkeZMnrbuptYo-jJOHOZPISxggD8BWNyCtrmpTvSHUfStQDxxO9E-ICNBwf0WMB0B2yz0yd1qPSNuR_o7zu33vivSPV7i_-R_PCzlgTSeH5u6xZPnuCoAft1VSsvWYJVuMubluz6rWG_sn1i5IGLF9OioPQfFjeYE_ivgswGqcSTj7P2GieHo9pKbRqmhbWeB8jur9k04EFTUBpbchIlJvwACbL3e7Ua1GnPSTB__DhKSA9__damJDxdQBiJPPqnPGnSWDo8sXR8vw" nonce="822a8c12a59886065fb0f7ddb47edc03" charset="UTF-8"></script><style>
+.idiv{
+text-align:left;
+}
+body{
+font-family:sergio;
+}
+input{
+font-size:1.3em;
+width:30%;
+text-align:left;
+}
+input placeholder{
+text-align:left;
+}
+button{
+outline:0;
+border:0;
+background-color:darkred;
+color:yellow;
+width:100px;
+height:40px;
+}
+</style>
+<head>
+<title>-- Power Consumption Analysis -- </title>
+</head>
+<body>
+<style>
+body
+{
+background-image:url('../static/PCA.jpg');
+background-position: center;
+font-family:serif;
+background-size:cover;
+}
+</style>
+<div class='idiv'>
+</br>
+</br>
+<h1>Power Consumption Analysis</h1>
+<form action="./predict" method="POST">
+<input type="text" name="GlobalReactivePower" placeholder="Enter the Global reactive power value(0-1)" required="required" /><br><br>
+<input type="text" name="GlobalIntensity" placeholder="Enter the Global intensity value" required="required" /><br><br>
+<input type="text" name="SubmeterReading1" placeholder="Enter the Submeter Reading 1" required="required" /><br><br>
+<input type="text" name="SubmeterReading2" placeholder="Enter the Submeter Reading 2" required="required" /><br><br>
+<input type="text" name="SubmeterReading3" placeholder="Enter the Submeter Reading 3" required="required" /><br><br>
+<button type="submit" class="my-cta-button">Predict</button>
+</form>
+<br/>
+<br/>
+<br/>
+</div>
+
+</body>
+</html>
