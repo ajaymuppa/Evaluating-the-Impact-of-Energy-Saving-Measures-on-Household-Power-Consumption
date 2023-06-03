@@ -77,3 +77,15 @@ For this project please refer to the link below to download.
 
 https://www.kaggle.com/datasets/uciml/electric-power-consumption-data-set
 
+## Output
+Initial
+
+<img src="img.png" alt="output image">
+
+Enter the Values
+
+<img src="img1.png" alt="output image">
+
+Result
+
+<img src="img2.png" alt="output image">
